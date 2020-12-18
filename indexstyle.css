@@ -1,0 +1,29 @@
+.monetization-list-wrapper p {
+    font-size: .9rem;
+}
+
+.monetization-card .valuation-card-bottom {
+    width: 90%;
+    padding: 15px 0 !important;
+}
+
+
+@media (min-width: 992px) {
+    .container-fluid .monetization-list-wrapper {
+        width: 60%;
+        margin: auto;
+        padding-bottom: 10px;
+    }
+
+    .monetization-card .valuation-card-bottom {
+        width: 100%;
+        padding: 30px 0 !important;
+    }
+
+    .monetization-card .valuation-card-bottom p {
+        display: inline;
+        padding: 0 50px !important;
+        font-size: 17px;
+        font-weight: bold;
+    }
+}

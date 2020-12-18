@@ -1,0 +1,75 @@
+/* responsive */
+@media (min-width: 992px) {
+
+    .valuation-tool #valuationForm,
+    .valuation-tool .valuation-button,
+    #complete-form {
+        width: 50%;
+        margin: auto;
+    }
+
+    .valuation-tool .valuation-card-bottom {
+        width: 65%;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .valuation-tool .valuation-card-bottom p {
+        padding: 15px 0;
+    }
+}
+
+.form-complete-email .btn {
+    width: 100%;
+}
+
+/* progress bar */
+
+.valuation-progess-loader .progress {
+    height: 10px;
+    width: 70%;
+    margin: auto;
+}
+
+.valuation-progess-loader .progress .progress-bar {
+    transition: 1s;
+}
+
+/* form */
+
+#privateBlog {
+    width: 25px;
+    height: 25px;
+}
+
+#ToU {
+    width: 25px;
+    height: 25px;
+}
+
+.input-logo-label {
+    width: 12% !important;
+    display: inline !important;
+
+}
+
+.input-date {
+    width: 88% !important;
+    display: inline !important;
+}
+
+.valuation-form-complete i {
+    color: rgb(241, 157, 0);
+}
+
+/* modal */
+
+.reset-modal-button .btn-secondary {
+    width: 40%;
+    margin-right: 20px;
+}
+
+.reset-modal-button .btn-primary {
+    width: 40%;
+}
