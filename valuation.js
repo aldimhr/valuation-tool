@@ -15,7 +15,7 @@ $('#datepicker').click(function () {
 // reset button
 $('#reset').click(function () {
     $("#valuationForm")[0].reset()
-    window.location.replace("http://127.0.0.1:5500/valuation%20tool/index.html")
+    window.location.replace("https://valuation-tool.vercel.app/")
 })
 
 // next button
@@ -54,7 +54,7 @@ $('#next').click(function () {
 // back button
 $('#back').click(function () {
     if ($('#valuationForm-1').is(":visible")) {
-        window.location.replace("http://127.0.0.1:5500/valuation%20tool/index.html")
+        window.location.replace("https://valuation-tool.vercel.app/")
     } else if ($('#valuationForm-2').is(":visible")) {
         $("#valuationForm-1").show()
         $("#valuationForm-2").hide()
